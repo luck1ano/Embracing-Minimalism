@@ -1,0 +1,86 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Sora', sans-serif;
+  font-size: .875rem;
+  background-color: #FAFAF9;
+  color: #6C727F;
+}
+
+img {
+  width: 98%;
+  display: block;
+  margin: .5em auto;
+  border-radius: 20px;
+  margin-bottom: 1em;
+}
+
+
+
+/* ==========
+   TYPOGRAPHY
+   ========== */
+.title {
+  font-size: 1.125rem;
+  color: #20293A;
+}
+
+.author-text {
+  font-size: .75rem;
+}
+
+/* ======
+   LAYOUT
+   ====== */
+
+.wrapper {
+  width: 360px;
+  background-color: #FFFFFF;
+  box-shadow: 3px 3px 50px .5px #E5EAF0;
+  margin: 200px auto;
+  border-radius: 20px;
+}
+
+.container {
+  padding: 1em;
+  margin: 0 auto;
+}
+
+.main-container {
+  border-bottom: 2px solid #E5EAF0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* link */
+
+.tag {
+  font-size: 0.625rem;
+  text-decoration: none;
+  padding: .5em 1.5em;
+  border-radius: 1em;
+  background-color: #E6D6FC;
+  color: #883AE1;
+  align-self: flex-start;
+  margin-bottom: 1em;
+}
+
+.tag:focus,
+.tag:hover {
+  background-color: #883AE1;
+  color: #E6D6FC;
+}
+
+/* Flex-order */
+
+img {
+  order: -2;
+}
+
+.tag {
+  order: -1;
+}
